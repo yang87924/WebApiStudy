@@ -65,3 +65,4 @@ D:\home\study\my\WebApiStudy\WebApiStudy\bin\Debug\net6.0\runtimes\win\native\sn
 D:\home\study\my\WebApiStudy\WebApiStudy\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
 D:\home\study\my\WebApiStudy\WebApiStudy\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
 D:\home\study\my\WebApiStudy\WebApiStudy\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+D:\home\study\my\WebApiStudy\WebApiStudy\obj\Debug\net6.0\WebApiStudy.sourcelink.json

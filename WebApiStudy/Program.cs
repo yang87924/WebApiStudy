@@ -1,5 +1,6 @@
 using MongoDB.Driver;
 using Serilog;
+using Serilog.Events;
 using WebApiStudy.Extensions;
 using WebApiStudy.Logger;
 
@@ -61,11 +62,15 @@ namespace WebApiStudy
 
                 app.Run();
             }
-            catch
+            catch(Exception ex)
             {
+                Log.Logger.ApiWrite(LogEventLevel.Fatal, $"Host terminated unexpectedly,ex:\n{ex}");
+
             }
             finally
             {
+                Log.CloseAndFlush();
+
             }
         }
     }
